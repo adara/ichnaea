@@ -16,8 +16,9 @@ brew install rethinkdb
 ```
 - Start RethinkDB
 ```sh
-rethinkdb
+rethinkdb --http-port 7999
 ```
+- Visit http://localhost:7999/#tables, add a database "testDB", then add a table "testTable" under "testDB"
 - Start Node server
 ```sh
 node app.js
