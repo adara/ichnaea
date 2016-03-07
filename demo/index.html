@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ichnaea Client Demo</title>
+</head>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+<script src="../client/ng-ichnaea.js"></script>
+<script>
+	var app = angular.module('myApp', ['ichnaea']);
+	app.controller('myCtrl', ['$ichnaea', '$timeout',
+		function ($ichnaea, $timeout) {
+			$ichnaea.connect();
+
+			$ichnaea.trackOn('myEvent');
+
+			$timeout(function () {
+				$ichnaea.trackOff('myEvent');
+				$ichnaea.disconnect();
+			}, 100);
+		}]);
+</script>
+
+</body>
+</html>
