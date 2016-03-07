@@ -1,33 +1,33 @@
 # Ichnaea
+# Flow chart
+![Image of flow-chart](https://github.com/adara/ichnaea/flow-chart.png)
 
 # Quick start
-1. Clone this repo to your local
-2. Install node dependencies
+- Clone this repo to your local
+- Install node dependencies
 ```sh 
 cd ichnaea
 npm install
 ```
-3. Install RethinkDB
+- Install RethinkDB
 ```sh
 brew update 
 brew install rethinkdb
 ```
-4. Start RethinkDB
+- Start RethinkDB
 ```sh
 rethinkdb
 ```
-5. Start Node server
+- Start Node server
 ```sh
 node app.js
 ```
-6. Visit localhost:3000 in browser
-7. Open another tab in browser and open demo/index.html
-
-# Flow chart
-![Image of flow-chart](https://github.com/adara/ichnaea/flow-chart.png)
+- Visit localhost:3000 in browser
+- Open another tab in browser and open demo/index.html
 
 # APIs
-## ng-ichnaea.js
+ng-ichnaea.js
+
 - $ichnaea.connect();
   
 - $ichnaea.trackOn('myEvent');
@@ -35,3 +35,27 @@ node app.js
 - $ichnaea.trackOff('myEvent');
 
 - $ichnaea.disconnect();
+
+## License
+
+The MIT License
+
+Copyright (c) 2016 ADARA, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
