@@ -1,6 +1,6 @@
 # Ichnaea
 - Name origin: In Greek mythology, Ichnaea (Iknaia), "the tracker”. 
-- Project Ichnaea is node.js API using rethinkDB plus a reporting UI.
+- Project Ichnaea is node.js API using rethinkDB with a reporting UI.
 - It is a boilerplate for allowing tracking of time elapsed of actions taken by a user on browser interacting with your application in real time.
 
 ## Flow chart
