@@ -1,8 +1,8 @@
 # Ichnaea
-# Flow chart
+## Flow chart
 ![Image of flow-chart](https://github.com/adara/ichnaea/flow-chart.png)
 
-# Quick start
+## Quick start
 - Clone this repo to your local
 - Install node dependencies
 ```sh 
@@ -25,7 +25,7 @@ node app.js
 - Visit localhost:3000 in browser
 - Open another tab in browser and open demo/index.html
 
-# APIs
+## APIs
 ng-ichnaea.js
 
 - $ichnaea.connect();
