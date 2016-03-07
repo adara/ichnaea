@@ -4,7 +4,7 @@
 - It is a boilerplate for allowing tracking of time elapsed of actions taken by a user on browser interacting with your application in real time.
 
 ## Flow chart
-![Image of flow-chart](https://github.com/adara/ichnaea/flow-chart.png)
+![Image of flow-chart](./flow-chart.png)
 
 ## Quick start
 - Clone this repo to your local
