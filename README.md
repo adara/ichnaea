@@ -1,29 +1,37 @@
 # Ichnaea
+- Name origin: In Greek mythology, Ichnaea (Iknaia), "the tracker”. 
+- Project Ichnaea is node.js API using rethinkDB plus a reporting UI.
+- It is a boilerplate for allowing tracking of time elapsed of actions taken by a user on browser interacting with your application in real time.
+
 ## Flow chart
 ![Image of flow-chart](https://github.com/adara/ichnaea/flow-chart.png)
 
 ## Quick start
 - Clone this repo to your local
-- Install node dependencies
+- Install Node
+```sh
+brew update 
+brew install node
+```
+- Install Node dependencies
 ```sh 
 cd ichnaea
 npm install
 ```
 - Install RethinkDB
 ```sh
-brew update 
 brew install rethinkdb
 ```
 - Start RethinkDB
 ```sh
 rethinkdb --http-port 7999
 ```
-- Visit http://localhost:7999/#tables, add a database "testDB", then add a table "testTable" under "testDB"
+- Visit [http://localhost:7999/#tables](http://localhost:7999/#tables), add a database "testDB", then add a table "testTable" under "testDB"
 - Start Node server
 ```sh
 node app.js
 ```
-- Visit localhost:3000 in browser
+- Visit [http://localhost:3000](http://localhost:3000) in browser
 - Open another tab in browser and open demo/index.html
 
 ## APIs
